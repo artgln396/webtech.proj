@@ -1,0 +1,173 @@
+*{
+    background-color: #111211;
+}
+.page{
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+}
+.main-page{
+    margin-bottom: 64px;
+}
+
+.icon{
+    color: rgb(49, 145, 209);
+}
+.navbar{ 
+    position: sticky;
+    top: 0; 
+    width: 90%;
+    margin: auto;
+    padding: 50px, 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}    
+.navbar ul li a{
+    text-decoration-line: none;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav .fa-solid{
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+.main-page{
+    padding: 3%;
+}
+.col-1{
+    flex-basis: 50%;
+}
+.link {
+    margin-left:118px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.link a img {
+    width: 50px;
+    height: auto;
+}
+.col-1 h1 {
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 200px;
+    margin-left: 130px ;
+    margin-bottom: 0;
+}
+
+.col-1 p{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+.col-2{
+    margin-left: 150px;
+}
+.col-2 img{
+    margin-right: 100px;
+    color: aliceblue;
+    margin-top: 120px;
+    width: 500px;
+
+}
+.second-page{
+    margin-top: 70px;
+    padding: 3%;
+}
+.row-1{
+    display: flex;
+}
+.col-3{
+    color: aliceblue;
+    flex-basis: 50%;
+}
+.list-educ{
+    margin-left: 30px;
+}
+.list-educ h4{
+    color: rgb(49, 145, 209);
+}
+.col-4{
+    color: aliceblue;
+}
+.col-4 .container{
+    margin-top: 2px;
+}
+.list-educ {
+    margin-top: 2px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill h4 {
+    margin-bottom: 5px;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 10px;
+  }
+  
+  .skill-level {
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .photoshop {
+    width: 50%;
+    background-color: rgb(49, 145, 209);
+  }
+  
+  .adobe {
+    width: 30%;
+    background-color: rgb(49, 145, 209);
+  }
+  
+  .love {
+    width: 100%;
+    background-color: rgb(49, 145, 209);
+  }
+  
+  .swimming {
+    width: 75%;
+    background-color: rgb(49, 145, 209);
+  }
+  
+
+@media only screen and (max-width: 600px){
+    main .navbar{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #111211;
+        width: 200px;
+        height: 100vh;
+    }
+    main .navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+}
