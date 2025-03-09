@@ -250,6 +250,7 @@ h2 {
         font-size: 1px;
     }
 }
+
 @media only screen and (min-width: 375px) and (max-width: 400px) {
     .navbar{ 
         position: sticky;
@@ -280,7 +281,7 @@ h2 {
         margin-left: 120px;
     }
     .col-2 img{
-        width: 100px;
+        width: 150px;
         margin-top: 10px;
     }
     .row-1 {
@@ -299,5 +300,4 @@ h2 {
         font-size: 29px;  
         margin-left: 64px;
     }
-
 }
