@@ -7,11 +7,9 @@
     box-sizing: border-box;
     scroll-snap-align: start;
 }
-
 .main-page{
     margin-bottom: 64px;
 }
-
 .icon{
     color: rgb(49, 145, 209);
 }
@@ -37,7 +35,6 @@
 nav .fa-solid{
     color: white;
 }
-
 .row{
     display: flex;
 }
@@ -53,7 +50,6 @@ nav .fa-solid{
     margin-top: 10px;
     display: flex;
 }
-
 .link a img {
     width: 50px;
     height: auto;
@@ -65,7 +61,6 @@ nav .fa-solid{
     margin-left: 130px ;
     margin-bottom: 0;
 }
-
 .col-1 p{
     font-size: 20px;
     color: aliceblue;
@@ -109,7 +104,6 @@ nav .fa-solid{
 .col-4 .container{
     margin-top: 2px;
 }
-
 h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -159,7 +153,6 @@ h2 {
     border-radius: 4px;  
     width: 20%;
 }     
-
 .contact{
     text-align: center;
 }
@@ -169,7 +162,6 @@ h2 {
 .contact a{
     text-decoration: none;
     color: white;
-
 }
 .list{
     margin-top: 2px;
@@ -180,12 +172,10 @@ h2 {
     display: flex;
     justify-content: center; 
 }
-
 .link a img {
     width: 40px;
     height: auto;
 }
-
 @media only screen and (max-width: 1024px) {
     .col-2 img {
         width: 250px;
@@ -198,9 +188,7 @@ h2 {
         font-size: 15px;
         margin-left: 130px;
     }
-
 }
-
 @media only screen and (max-width: 767px) {
     .navbar ul {
         flex-direction: column;
@@ -267,7 +255,6 @@ h2 {
     }
     
 }
-
 @media only screen and (max-width: 375px) {
     .navbar{ 
         position: sticky;
