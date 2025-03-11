@@ -274,7 +274,7 @@ h2 {
         margin-left: 64px;
     }
 }
-@media only screen and (max-width: 377px) {
+@media only screen and (max-width: 376px) {
     .navbar{ 
         position: sticky;
         top: 0; 
@@ -329,4 +329,5 @@ h2 {
     border-radius: 4px;  
     width: 60%;
 }     
-} 
+}   
+
